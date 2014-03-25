@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context="com.oscarsalguero.funwithtaxes.ReviewInputActivity" >
+
+    <Button
+        android:id="@+id/button_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_output" />
+
+    <fragment
+        android:id="@+id/fragment_input_review"
+        android:name="com.oscarsalguero.funwithtaxes.fragments.ReviewInputListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/button_output"
+        tools:layout="@layout/fragment_list_review_input" />
+
+</RelativeLayout>

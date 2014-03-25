@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Fun with Taxes</string>
+    
+    <string name="title_list_input">Select an Input</string>
+    <string name="title_review_input">Review Input</string>
+	<string name="title_output">Output</string>
+	
+	<string name="button_output">Show Output</string>
+	
+	<string name="mock_text_quantity">0</string>
+	<string name="mock_text_description">Description&#8230;</string>
+	<string name="mock_text_price">$0.00</string>
+	<string name="mock_text_input">Input X</string>
+	
+	<string name="mock_data_input_1">Input 1</string>
+	<string name="mock_data_input_2">Input 2</string>
+	<string name="mock_data_input_3">Input 3</string>
+	
+	<string name="mock_data_item_book">Book</string>
+	<string name="mock_data_item_music_cd">Music CD</string>
+	<string name="mock_data_item_chocolate_bar">Chocolate Bar</string>
+	<string name="mock_data_item_bottle_of_perfume">Bottle of Perfume</string>
+	
+	<string name="mock_data_item_packet_of_headache_pills">Packet of headache pills</string>
+	
+	<string name="mock_data_item_imported_bottle_of_perfume">Imported Bottle of Perfume</string>
+	<string name="mock_data_item_imported_box_chocolates">Imported Box of Chocolates</string>
+	
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context="com.oscarsalguero.funwithtaxes.MainActivity" >
+	
+    <fragment
+        android:id="@+id/fragment_input_selection"
+        android:name="com.oscarsalguero.funwithtaxes.fragments.InputSelectionListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_list_input" />
+
+</RelativeLayout>
